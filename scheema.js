@@ -30,5 +30,8 @@ userSchema.pre("save", async function(next){
 })
 
 
+userSchema.methods.isPasswordCorrect = async function(password){
+    return await brcypt.compare(password, this.password)
+}
 
-module.exports = User;
+module.exports = User; 

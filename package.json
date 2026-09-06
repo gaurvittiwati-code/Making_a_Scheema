@@ -4,7 +4,7 @@
   "description": "",
   "main": "scheema.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+     "start": "node mongoose.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/gaurvittiwati-code/Making_a_Scheema#readme",
   "dependencies": {
-    "brcypt": "^1.0.1"
+    "brcypt": "^1.0.1",
+    "dotenv": "^17.4.2",
+    "mongoose": "^9.9.5"
   }
 }

@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "mongodb+srv://<db_username>:ArpDi6YW9BMWW8Qk@cluster0.r5rrtkq.mongodb.net/?appName=Cluster0",
+            "request": "launch",
+            "url": "mongodb+srv://<db_username>:ArpDi6YW9BMWW8Qk@cluster0.r5rrtkq.mongodb.net/?appName=Cluster0"
+        }
+    ]
+}
